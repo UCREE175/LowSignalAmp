@@ -1,0 +1,53 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.bluetoothapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\Jesse\IntelliJIDEAProjects\BluetoothApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Jesse\IntelliJIDEAProjects\BluetoothApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->C:\Users\Jesse\IntelliJIDEAProjects\BluetoothApp\app\src\main\AndroidManifest.xml:4:5-68
+11-->C:\Users\Jesse\IntelliJIDEAProjects\BluetoothApp\app\src\main\AndroidManifest.xml:4:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->C:\Users\Jesse\IntelliJIDEAProjects\BluetoothApp\app\src\main\AndroidManifest.xml:5:5-73
+12-->C:\Users\Jesse\IntelliJIDEAProjects\BluetoothApp\app\src\main\AndroidManifest.xml:5:22-71
+13
+14    <application
+14-->C:\Users\Jesse\IntelliJIDEAProjects\BluetoothApp\app\src\main\AndroidManifest.xml:6:5-20:19
+15        android:allowBackup="true"
+15-->C:\Users\Jesse\IntelliJIDEAProjects\BluetoothApp\app\src\main\AndroidManifest.xml:7:13-39
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.0.1] C:\Users\Jesse\.gradle\caches\transforms-2\files-2.1\72b2b92ec4ab73ff21fb9bc348de3b22\core-1.0.1\AndroidManifest.xml:22:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Users\Jesse\IntelliJIDEAProjects\BluetoothApp\app\src\main\AndroidManifest.xml:8:13-47
+19        android:label="@string/app_name"
+19-->C:\Users\Jesse\IntelliJIDEAProjects\BluetoothApp\app\src\main\AndroidManifest.xml:9:13-45
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->C:\Users\Jesse\IntelliJIDEAProjects\BluetoothApp\app\src\main\AndroidManifest.xml:10:13-58
+21        android:supportsRtl="true"
+21-->C:\Users\Jesse\IntelliJIDEAProjects\BluetoothApp\app\src\main\AndroidManifest.xml:11:13-39
+22        android:theme="@style/AppTheme" >
+22-->C:\Users\Jesse\IntelliJIDEAProjects\BluetoothApp\app\src\main\AndroidManifest.xml:12:13-44
+23        <activity android:name="com.example.bluetoothapp.MainActivity" >
+23-->C:\Users\Jesse\IntelliJIDEAProjects\BluetoothApp\app\src\main\AndroidManifest.xml:13:9-19:20
+23-->C:\Users\Jesse\IntelliJIDEAProjects\BluetoothApp\app\src\main\AndroidManifest.xml:13:19-47
+24            <intent-filter>
+24-->C:\Users\Jesse\IntelliJIDEAProjects\BluetoothApp\app\src\main\AndroidManifest.xml:14:13-18:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\Jesse\IntelliJIDEAProjects\BluetoothApp\app\src\main\AndroidManifest.xml:15:17-68
+25-->C:\Users\Jesse\IntelliJIDEAProjects\BluetoothApp\app\src\main\AndroidManifest.xml:15:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\Jesse\IntelliJIDEAProjects\BluetoothApp\app\src\main\AndroidManifest.xml:17:17-76
+27-->C:\Users\Jesse\IntelliJIDEAProjects\BluetoothApp\app\src\main\AndroidManifest.xml:17:27-74
+28            </intent-filter>
+29        </activity>
+30    </application>
+31
+32</manifest>
